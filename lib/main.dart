@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lab7/welcome_screen.dart';
+import 'bottamNavbar.dart';
 import 'card.dart';
 import 'home_screen.dart';
 import 'login.dart';
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MaterialList(),
+      home: BottomNavigation(),
     );
   }
 }
